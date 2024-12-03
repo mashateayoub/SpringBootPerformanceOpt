@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Performance API is a Spring Boot application designed for performance optimization. It provides endpoints to manage and retrieve book information, utilizing caching and asynchronous processing to enhance performance.
+This project is a Spring Boot application designed for performance optimization. It provides endpoints to manage and retrieve book information, utilizing caching and asynchronous processing to enhance performance.
 
 ## Features
 
