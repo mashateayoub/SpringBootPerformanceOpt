@@ -35,7 +35,7 @@ This project is a Spring Boot application designed for performance optimization.
 1. Clone the repository:
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/mashateayoub/performance.git
    cd performance
    ```
 
