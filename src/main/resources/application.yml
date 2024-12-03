@@ -1,0 +1,26 @@
+spring:
+  data:
+    redis:
+      host: localhost
+      port: 6379
+  cache:
+    type: redis
+  datasource:
+    url: jdbc:postgresql://localhost:5432/API_PERFORMANCE
+    username: admin
+    password: password
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: true
+    database: postgresql
+
+server:
+  compression:
+    enabled: true
+    mime-types: text/html,text/xml,text/plain,text/css,text/javascript,application/javascript,application/json
+    min-response-size: 2048
